@@ -29,6 +29,8 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 ![](https://github.com/RanjithD18/rl-policy-evaluation/blob/main/gra.png)
 ## POLICY EVALUATION FUNCTION
 ~~~
+Register No:212221240025
+Name:Manoj Choudhary V
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
     prev_V = np.zeros(len(P), dtype=np.float64)
     # Write your code here to evaluate the given policy
